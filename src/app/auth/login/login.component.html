@@ -1,0 +1,21 @@
+<div class="banner-side">
+</div>
+
+<div class="form-container">
+  <div class="form-area">
+    <div class="mb-3">
+      <input type="email" placeholder="E-mail" class="form-control form-control-sm">
+    </div>
+    <div class="mb-3">
+      <input type="password" placeholder="senha" class="form-control form-control-sm">
+    </div>
+
+    <div class="control-area">
+      <button type="button" class="btn btn-primary login-btn" (click)="login()">login</button>
+      <!-- <p>Esqueceu sua senha? <a href="http://">Clique aqui</a></p> -->
+      <div>
+        <p>Ainda não tem uma conta? <a [routerLink]="['/signup']">Registre-se</a> </p>
+      </div>
+    </div>
+  </div>
+</div>
