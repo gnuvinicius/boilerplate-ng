@@ -18,7 +18,11 @@
     "@angular/platform-browser": "^18.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
+    "@types/axios": "^0.14.0",
+    "axios": "^1.7.3",
     "bootstrap": "^5.3.3",
+    "garage-project": "file:",
+    "jwt-decode": "^4.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
